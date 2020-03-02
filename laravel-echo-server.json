@@ -1,0 +1,35 @@
+{
+    "authHost": "http://mkh.m0sirhy",
+    "authEndpoint": "/broadcasting/auth",
+    "clients": [{
+        "appId": "358bc16510b99ccd",
+        "key": "8d1db3bac55cec04c1481afbe7133db0"
+    }],
+    "database": "redis",
+    "databaseConfig": {
+        "redis": {},
+        "sqlite": {
+            "databasePath": "/database/laravel-echo-server.sqlite"
+        }
+    },
+    "devMode": true,
+    "host": "mkh.m0sirhy",
+    "port": "6001",
+    "protocol": "http",
+    "socketio": {},
+    "secureOptions": 67108864,
+    "sslCertPath": "",
+    "sslKeyPath": "",
+    "sslCertChainPath": "",
+    "sslPassphrase": "",
+    "subscribers": {
+        "http": true,
+        "redis": true
+    },
+    "apiOriginAllow": {
+        "allowCors": false,
+        "allowOrigin": "",
+        "allowMethods": "",
+        "allowHeaders": ""
+    }
+}
